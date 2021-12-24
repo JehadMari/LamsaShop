@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lamsa Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body bgcolor="Navyblue">
+
+    <h1 align="center">Welcome to Lamsa Shop</h1>
+    <p color="red" align="center">You can buy any watch at anytime from our shop & get free delivery on orders above 100 JOD.</p>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#delivery">Delivery</a></li>
+        <li><a href="#bestSelling">Best Selling</a></li>
+        <li><a href="#order">Order Now</a></li>
+    </ul>
+
+    <img width="100%" height="500" src="header.jpg" alt="header" />
+    <h1 id="bestSelling" align="center">Best Selling</h1>
+
+    <table align="center">
+        <tr>
+            <td>
+                <a href="prod1.jpg" target="_blank"><img src="prod1.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod2.jpg"><img src="prod2.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod3.jpg"><img src="prod3.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod4.jpg"><img src="prod4.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod5.jpg"><img src="prod5.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+        </tr>
+        <tr>
+            <td><p align="center">Code: W1FLBH</p></td>
+            <td><p align="center">Code: W2GKIG</p></td>
+            <td><p align="center">Code: W3GUVS</p></td>
+            <td><p align="center">Code: W4TRCD</p></td>
+            <td><p align="center">Code: W5HJYB</p></td>
+        </tr>
+        <tr>
+            <td><p align="center"><p align="center">400 JOD</p></td>
+            <td><p align="center"><p align="center">450 JOD</p></td>
+            <td><p align="center"><p align="center">390 JOD</p></td>
+            <td><p align="center"><p align="center">500 JOD</p></td>
+            <td><p align="center"><p align="center">300 JOD</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="prod6.jpg"><img src="prod6.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod7.jpg"><img src="prod7.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod8.jpg"><img src="prod8.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod9.jpg"><img src="prod9.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+            <td>
+                <a href="prod10.jpg"><img src="prod10.jpg" width="250" height="250" alt="image not found" /></a>
+            </td>
+        </tr>
+        <tr>
+            <td><p align="center">Code: W6BJOE</p></td>
+            <td><p align="center">Code: W7VRDX</p></td>
+            <td><p align="center">Code: W8ZMLK</p></td>
+            <td><p align="center">Code: W9QSTE</p></td>
+            <td><p align="center">Code: W1NBOS</p></td>
+        </tr>
+        <tr>
+            <td><p align="center"><p align="center">800 JOD</p></td>
+            <td><p align="center"><p align="center">600 JOD</p></td>
+            <td><p align="center"><p align="center">450 JOD</p></td>
+            <td><p align="center"><p align="center">380 JOD</p></td>
+            <td><p align="center"><p align="center">700 JOD</p></td>
+        </tr>
+    </table>
+
+    <h1 id="delivery" align="center">Delivery</h1>
+    <table width="50%" align="center" border="1">
+        <tr>
+            <td>
+                Amman
+            </td>
+            <td>
+                2 JOD
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Zarqa
+            </td>
+            <td>
+                3 JOD
+            </td>
+        </tr>
+        <tr>
+            <td>
+                North
+            </td>
+            <td>
+                4 JOD
+            </td>
+        </tr>
+        <tr>
+            <td>
+                South
+            </td>
+            <td>
+                5 JOD
+            </td>
+        </tr>
+    </table>
+
+    <div id="order">
+        <p align="center"><img src="order.png" alt="shop now" width="100%" height="280" /></p>
+        <form align="center">
+            <label for="Name">Name</label><br />
+            <input type="text" name="Name" id="Name" /><br /><br />
+
+            <label for="Address">Address</label><br />
+            <input type="text" name="Address" id="Address" /><br /><br />
+
+            <label>Gender</label><br />
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Male" value="Male" />
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Female" value="Female" /> <br /> <br />
+
+            <label for="Products">Products</label><br />
+            <textarea name="Products" id="Products" rows="5" cols="22"></textarea><br /><br />
+
+            <label>Delivery Method</label><br />
+            <input type="radio" id="cash" name="delivery" value="cash" />
+            <label for="cash">Cash</label>
+            <input type="radio" id="visa" name="delivery" value="visa">
+            <label for="visa">Visa</label><br><br>
+
+
+            <input type="submit" name="submit" value="Send" />
+        </form>
+    </div>
+</body>
+</html>
